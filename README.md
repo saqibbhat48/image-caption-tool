@@ -1,8 +1,20 @@
-# React + Vite
+# Image Caption Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Image Caption Tool** is a web application built with React and Fabric.js that allows users to search for images, add them to a canvas, and then add text layers or shapes (circle, rectangle, triangle) on top of the image. Users can download the final image with the added elements.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Images**: Search for images from the Pexels API using a keyword.
+- **Add Images to Canvas**: Select an image from the search results and add it to a canvas.
+- **Add Text**: Add editable text layers on the canvas.
+- **Add Shapes**: Add basic shapes (circle, rectangle, triangle) to the canvas.
+- **Download Image**: Download the modified image with all added layers.
+
+## Technologies Used
+
+- **React.js**: For building the user interface.
+- **Fabric.js**: For image manipulation on the canvas (adding images, text, and shapes).
+- **Axios**: For making HTTP requests to fetch images from the Pexels API.
+- **Tailwind CSS**: For styling the components.
+
+
